@@ -5,7 +5,7 @@ var package = Package(
     name: "SWCompression",
     platforms: [
         .macOS(.v14),
-        .iOS(.v17),
+        .iOS(.v16),
         .tvOS(.v17),
         .watchOS(.v10),
         .visionOS(.v1)
