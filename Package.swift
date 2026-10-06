@@ -16,7 +16,7 @@ var package = Package(
             targets: ["SWCompression"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/tsolomko/BitByteData", from: "2.1.0"),
+        .package(url: "https://github.com/miraphael/BitByteData", from: "2.1.1"),
     ],
     targets: [
         .target(
