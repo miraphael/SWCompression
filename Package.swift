@@ -4,11 +4,10 @@ import PackageDescription
 var package = Package(
     name: "SWCompression",
     platforms: [
-        .macOS(.v14),
-        .iOS(.v16),
-        .tvOS(.v17),
-        .watchOS(.v10),
-        .visionOS(.v1)
+        .macOS(.v11),
+        .iOS(.v15),
+        .tvOS(.v14),
+        .watchOS(.v7)
     ],
     products: [
         .library(
@@ -16,7 +15,7 @@ var package = Package(
             targets: ["SWCompression"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/miraphael/BitByteData", from: "2.1.1"),
+        .package(url: "https://github.com/miraphael/BitByteData", from: "2.1.2"),
     ],
     targets: [
         .target(
